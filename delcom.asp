@@ -1,0 +1,21 @@
+<!--#include file="./templates/dbconnection.asp"-->
+<%
+	dim uid
+	uid = request.querystring("id")
+
+	sql = "DELETE FROM comment WHERE comid=" & uid
+
+	on error resume next
+	cn.Execute sql
+
+	if err<>0 then
+		response.write ("No update permissions!")
+		response.write err.description
+	else
+	Response.Redirect Request.ServerVariables("HTTP_REFERER")
+	end if
+
+    rs.close
+cn.close
+set rs = Nothing
+%>

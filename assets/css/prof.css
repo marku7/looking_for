@@ -1,0 +1,282 @@
+.container {
+display: flex;
+justify-content: space-between;
+padding: 13px 5%;
+}
+
+
+.main-content{
+flex-basis: 30%;
+display: inline-block;
+align-items: right;
+justify-content: center;
+width: 100%;
+max-width: 100%;
+background: #9bb4a0;
+padding: 10px 10% ;
+box-shadow: 0 0 20px #083411;
+border-color: 0 0 50px #007f3d;
+margin-inline-start: 20px;
+
+}
+
+.post-container{
+	margin-top: 100 px;
+	margin-bottom: 10px;
+}
+
+.write-post-container{
+width: 1200px;
+background: #9bb4a0;
+border-radius: 8px;
+padding: 10px;
+columns: #626262;
+flex-basis: 30%;
+display: inline-block;
+box-shadow: 0 0 20px #083411;
+border-color: 0 0 50px #007f3d;
+margin-inline-start: 20px;
+margin-top: 50px;
+margin-left: 50px;
+margin-bottom: 20px;
+}
+
+.write-post-containers{
+width: 1100px;
+height: 700px;
+background: #9bb4a0;
+border-radius: 8px;
+padding: 10px;
+columns: #626262;
+flex-basis: 30%;
+display: inline-block;
+box-shadow: 0 0 20px #083411;
+border-color: 0 0 50px #007f3d;
+margin-inline-start: 20px;
+margin-top: 50px;
+margin-left: 30px;
+padding-left: 90px;
+padding-top: 60px;
+}
+
+.post-text{
+	margin-bottom: -20px;
+	margin-left: 90px;
+}
+
+.write-post-container1{
+width: 1100px;
+background: #9bb4a0;
+border-radius: 8px;
+padding: 10px;
+columns: #626262;
+flex-basis: 30%;
+display: inline-block;
+box-shadow: 0 0 20px #083411;
+border-color: 0 0 50px #007f3d;
+margin-inline-start: 20px;
+margin-top: 50px;
+margin-left: 30px;
+
+}
+
+
+.share-post-container{
+width: 1200px;
+background: #9bb4a0;
+border-radius: 8px;
+padding: 10px;
+columns: #626262;
+flex-basis: 30%;
+display: inline-block;
+box-shadow: 0 0 20px #083411;
+border-color: 0 0 50px #007f3d;
+margin-inline-start: 20px;
+margin-top: 50px;
+margin-left: 50px;
+margin-bottom: 20px;
+}
+
+
+
+.user-profile{
+display: flex;
+align-items:center;
+margin-bottom: 0%;
+margin-top: 10px;
+}
+
+.user-profile1{
+display: flex;
+align-items:center;
+position: absolute;
+margin-bottom: -100px;
+margin-top: 70px;
+margin-left: 60px;
+}
+
+.user-profile img, .user-profile1 img{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+margin-right: 10px;
+box-shadow: 0 0 20px #083411;
+
+}
+
+.user-profile p, .user-profile1 p {
+margin-bottom: -0px;
+font-weight: 500;
+color: #083411;
+margin-left: 2px;
+}
+
+.post-input-container{
+padding-left: 55px;
+padding-top: 1px;
+}
+
+/*.post-input-container textarea{
+width: 95%;
+border:0;
+outline: 0;
+border-bottom: 1px solid #ccc;
+background-color: #E6DCDC;
+border-radius: 10px;
+}*/
+
+.post-input-container textarea {
+width: 95%;
+border: 0;
+outline: 0;
+border-bottom: 1px solid #ccc;
+background-color: #e6dcdc;
+border-radius: 10px;
+margin-bottom: 10px;
+margin-top: 10px;
+margin-left: 9px;
+}
+
+.comment-input-container{
+	padding-left: 0px;
+	padding-top: 1px;
+	border border-radius: 20px;
+	width: 950px;
+	height: 50px;
+	border-bottom: 1px solid #ccc;
+	background-color: #e6dcdc;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	margin-top: -145px;
+	margin-left: 170px;
+	margin-right: 10px;
+	display: flex;
+	position: absolute;
+}
+
+.comment-input-container textarea{
+	width: 950px;
+	margin-left: 0px;
+	border-radius: 10px;
+}
+
+.comment-user-profile img{
+	width: 40px;
+height: 40px;
+border-radius: 50%;
+margin-right: 5px;
+margin-left: 120px;
+margin-top: -143px;
+margin-bottom: 10px;
+box-shadow: 0 0 5px #083411;
+position: absolute;
+}
+
+.submit-comment {
+margin-left: 1070px;
+margin-top: -145px;	
+height: 22px;
+width: 22px;
+position: absolute;
+}
+/*.submit-btn{
+	margin-left: 1070px;
+margin-top: -145px;	
+height: 22px;
+width: 22px;
+
+}
+*/
+
+.post-button {
+padding: 8px 16px;
+border: none;
+border-radius: 4px;
+background-color: #6eb07a;
+color: black;
+font-size: 12px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+margin-left: 9px;
+}
+
+.post-button:hover {
+background-color: #bbb5b5;
+}
+
+
+.user-profile span{
+font-size: 13px;
+color: #6eb07a;
+}
+
+
+.post-text{
+color: black;
+margin: 15px 0;
+font-size: 15px;
+margin-left: 9px;
+}
+
+.react-buttons{
+	
+}
+
+
+.react-buttons img:hover {
+  background-color: green;
+}
+.react-container1{
+	margin-top: -160px;
+	margin-left: 350px;
+	justify-content: space-between;
+	cursor: pointer;
+	display: flex;
+	align-items: right;
+	border-color: transparent;
+	position: absolute;
+	
+	
+}
+
+.react-container2{
+	margin-top: -180px;
+	margin-left: 530px;
+	justify-content: space-between;
+	cursor: pointer;
+	display: flex;
+	align-items: right;
+	border-color: transparent;
+	position: absolute;
+}
+
+.react-container3{
+	margin-top: -200px;
+	margin-left: 730px;
+	justify-content: space-between;
+	cursor: pointer;
+	display: flex;
+	align-items: right;
+	border-color: transparent;
+	position: absolute;
+}

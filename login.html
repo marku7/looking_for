@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="assets/css/login.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <div class="box">
+        <form id="login" method="post" action="verify.asp">
+            <h1 class="title">Login</h1>
+            
+            <div class="input-group">
+                <input type="text" class="input" name="uname"  autofocus placeholder="Username">
+            </div>
+            
+            <div class="input-group">
+                <input type="password" class="input" name="pword" autofocus placeholder="Password">
+            </div>
+            
+            <div>
+                <button class="button" type="submit" value="Login">Login</button>
+            </div>
+        </form>
+        
+        <br>
+        <div>
+            <a href="index.html">
+                <button class="button" type="reset" value="Cancel">Cancel</button>
+            </a>
+        </div>
+        </br>
+        
+        <p class="text">Don't have an account?
+            <a class="link" href="signup.html" id="linkCreateAccount">Create account</a>
+        </p>
+    </div>
+</body>
+</html>

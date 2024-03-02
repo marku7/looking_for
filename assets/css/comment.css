@@ -1,0 +1,45 @@
+body{
+
+	background-color: #6EB07A;
+}
+
+.card{
+	
+	background-color: #9BB4A0;
+  box-shadow: 0 0 20px #083411;
+border-color: 0 0 50px #007f3d;
+}
+
+
+
+.form-control{
+
+	height: 48px;
+	border-radius: 25px;
+}
+
+.form-control:focus {
+    color: #007F3D;
+    background-color: #fff;
+    border-color: #007F3D;
+    outline: 0;
+    box-shadow: none;
+    text-indent: 10px;
+}
+
+.c-badge {
+    background-color: #35b69f;
+    color: white;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    display: inline-block; /* Changed display property */
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+  }
+  
+
+.comment-text{
+	font-size: 20px;
+}

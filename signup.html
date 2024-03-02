@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      
+      <title>Sign Up Form </title>
+      <link rel="stylesheet" href="./assets/css/signup.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+
+   <body>
+    <div class="box">
+        <form class="form hidden" id="createAccount" method="post" action="reguser.asp">
+            <h1 class="title">Create Account</h1>
+            <div class="message error"></div>
+            <div class="input-group">
+                <input type="text" name="username" id="signupUsername" class="input" autofocus="" placeholder="Username" required>
+                <div class="error_message"></div>
+            </div>
+
+            <div class="input-group">
+                <input type="text" name="messenger" class="input" autofocus="" placeholder="Messenger link" required>
+                <div class="error_message"></div>
+            </div>
+
+            <div class="input-group">
+                <input type="password" class="input" name="pword" autofocus="" placeholder="Password" required>
+                <div class="error_message"></div>
+            </div>
+
+            <div >
+           
+         
+
+            <br>
+
+            <div>
+                <input type="submit" class="button" value="Save" href="index.html">
+            </div>
+
+            <br>
+            <div>
+               <a href="index.html"><input class="button" type="button" value="Cancel" href=""></a> 
+            </div>
+            </br>
+
+            <p class="text">Already have an account?
+                <a class="link" href="index.html" id="linkLogin"> Login </a>
+            </p>
+
+         
+           
+           <p>
+            By clicking the Sign Up button,you agree to our <br />
+            <a href="terms-condition.asp">Terms and Condition</a> and <a href="#">Policy Privacy</a>
+            </p>
+            
+            
+        </form>       
+   </div>
+</body>
+</html>
